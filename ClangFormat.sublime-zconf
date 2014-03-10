@@ -1,0 +1,13 @@
+
+//
+// Command to run clang-format.
+//
+clang_format_command = "clang-format-3.3"
+
+//
+// List of options to be passed to clang-format.  See clang-format --help
+// for more infos.  
+//
+clang_format_options = []
+
+Clang Format :: clang_format

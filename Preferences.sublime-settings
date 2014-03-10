@@ -1,0 +1,13 @@
+{
+    "clang_format_style": "LLVM", 
+    //
+    // Command to run clang-format.
+    //
+    "clang_format_command": "clang-format-3.3", 
+    "meta.clang_format_style": "{\n\"widget\": \"select\",\n\"args\": { \"values\": [\"LLVM\", \"Google\", \"Chromium\", \"Allman\", \"Mozilla\"]},\n\"validate\": \"str\"\n", 
+    //
+    // List of options to be passed to clang-format.  See clang-format --help
+    // for more infos.  
+    //
+    "clang_format_options": []
+}
